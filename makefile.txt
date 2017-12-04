@@ -1,0 +1,20 @@
+all: a4p1Server a4p2Server a4p3Server a4p1Client1 a4p2Client2 a4p3Client3
+
+a4p1Server:
+    gcc -Wall -o a4p1Server a4p1Server.c
+
+a4p2Server:
+    gcc -Wall -o a4p2Server a4p2Server.c
+
+a4p3Server:
+    gcc -Wall -o a4p3Server a4p3Server.c
+
+a4p1Client1:
+    gcc -Wall -o a4p1Client1 a4p1Client1.c
+
+a4p2Client1:
+    gcc -Wall -o a4p2Client1 a4p1Client2.c
+
+a4p3Client1:
+    gcc -Wall -o a4p3Client1 a4p3Client3.c
+
